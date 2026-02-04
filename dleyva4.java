@@ -18,9 +18,11 @@ public class dleyva4{
 		}else if (choice == 2){
 			System.out.println("Why did the chicken cross the road? to get to the other side");
 		}else if (choice == 3){
-		        System.out.println("Goodbye!");
+			System.out.println("when life gives you lemons, make lemonade!!");
+		}else if(choice == 4){
+		 	System.out.println("Goodbye!");
 		} else {
-		System.out.println("Invalid choice.");
+			System.out.println("Invalid choice.");
 		}
 
 		keyboard.close();
