@@ -5,7 +5,7 @@ public class dleyva9{
 
             Scanner keyboard = new Scanner(System.in);
 
-            System.out.println("Guess a number between 10 and 20: ");
+            System.out.println("Guess a number between 1 and 20: ");
             int guess = keyboard.nextInt();
 
             if(guess < number){
