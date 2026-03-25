@@ -1,31 +1,47 @@
-#Danya Leyva
-#Lab 7
+# CSC-321 Lab #6 - Python Variables and Selection Statements
+# Your name: Danya
+# Date: February 2026
 
-secret_number = 7
+# 1. Create an interger, a float, and a string variable ( implicit type- no "int", "float", or "String" keywords)
 
-guess_str = input("Guess a number between 0 and 9: ")
+x = 6
+y = 5.5
+z = "California" 
 
-if not guess_str.isdigit():
-    print("That wasnt a valid number. Please run again and enter a digit 0-9")
+
+# String Comparison
+if z == "California": 
+    print ("Variable z is California")
+
 else:
-    guess = int(guess_str)
-    
-    if guess < secret_number:
-        print("Your guess is LOWER than the number")
-        print("YOU LOSE! better luck next time :(")
-    elif guess > secret_number:
-        print("Your guess is HIGHER than the number")
-        print("YOU LOSE! better luck next time :(")
-    else:
-        print("WINNER!!! you guessed it :)")
+    print("Variable z is not California")
 
-print ("\n--- For Loop Joke ---")
-for i in range(5):
-    print (f"{i+1}: Why dont programers like nature?? It has too many bugs. :P")
+# Integer comparison
 
-print ("\n--- While loop favorite food ---")
-fav_food = "In and out burger"
-count = 0
-while count < 5:
-    print(fav_food)
-    count += 1
+if x < 5:
+    print ("x is less than 5")
+
+elif x == 6:
+    print("x is equal to 6")
+
+elif x > 7:
+    print("x is greater than 7")
+
+else:
+    print("x is between 5 and 7 but not 6")
+
+
+# float comparison 
+ 
+if y > 6.0:
+    print("y is greater than 6.0")
+elif y == 5.5:
+    print("y is exactly 5.5")
+elif y < 5.0:
+    print("y is less than 5.0")
+else:
+    print("y is between 5.0 and 6.0 but not exactly 5.5")
+
+
+
+
