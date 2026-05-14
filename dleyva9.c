@@ -1,5 +1,5 @@
 // Danya Leyva
-// lab-02
+// lab-09
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,6 +8,7 @@
 int main(void)
 {
     srand(time(NULL));
+
     int i = 0;
     int guess = 0;
 
@@ -27,18 +28,21 @@ int main(void)
     {
         for (i = 0; i < guess; i++)
         {
-            printf("You won and guessed the number correctly!\n");
+            printf("YOU WON!!");
+	    printf("you guessed the number correctly!\n");
         }
     }
     else
     {
         if (guess < answer)
         {
-            printf("You lost and your guess is lower than my number which was %d.\n", answer);
+            printf("YOU LOSE!!");
+            printf("your guess is LOWER  than my number which was %d.\n", answer);
         }
         else
         {
-            printf("You lost and your guess is higher than my number which was %d.\n", answer);
+	    printf("YOU LOSE!!");	
+            printf("your  guess is HIGHER than my number which was %d.\n", answer);
         }
     }
 
